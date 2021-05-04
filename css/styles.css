@@ -1,0 +1,42 @@
+/* Selectores en CSS */
+
+/* Selector universal (normalmente empleado para el reseteo css) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector por atributo id (#) */
+
+#logo {
+    box-shadow: 2px 2px 4px grey;
+}
+
+/* Selector por clase CSS (.) */
+
+.destacado {
+    color: violet;
+}
+
+/* Selector por elemento  */
+
+ul {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Selector pseudoclase (:)*/
+
+.destacado:hover {
+    color: white;
+    background-color: violet;
+}
+
+/* Selector pseudoelemento (::) */
+
+p::first-letter {
+    font-size: 30px;
+    color: green;
+}
